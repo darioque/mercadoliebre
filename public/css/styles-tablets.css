@@ -4,15 +4,18 @@
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
-  .main-header-topbar a {
-  width: 33%;
-}
-.main-header-topbar div {
-  width: 33%;
-}
-.main-header-topbar h4 {
-  width: 33%;
-}
+    .main-header-topbar a {
+    width: 33%;
+  }
+  .main-header-topbar div {
+    width: 33%;
+  }
+  .main-header-topbar h4 {
+    width: 33%;
+  }
+  .main-header-bottombar li a{
+    font-size: 14px;
+  }
   .wrapper {
       width: 50%;
   }
@@ -35,6 +38,7 @@
   .main-header-bottombar {
     display: flex;
     justify-content: space-between;
+    margin: auto
   }
   /* Estilos para las barras de navegaciones del header (bottombar lists) */
   .main-header-bottombar ul {
