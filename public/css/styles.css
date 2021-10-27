@@ -1,0 +1,154 @@
+.main-header-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-header-topbar img{
+  width: 100%;
+}
+
+.main-header-topbar a{
+  max-width: 150px;
+}
+.search-bar {
+  display: flex;
+  padding: 10px;
+  width: 50%;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  max-width: 400px;
+}
+.search-bar button {
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+
+/* Se oculta la barra de navegacion por defecto (se cambia en los breakpoints) */
+.main-header-bottombar {
+  display: none;
+}
+
+/* Se pone de color negro y se sacan los subrayados de los links de la barra de navegacion */
+.main-header-bottombar ul a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+/* Se quitan los puntos de las listas de la barra de navegación */
+.main-header-bottombar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el icono de lupa del buscador */
+.search-icon {
+  background-color: white;
+  padding: 2px;
+  border: none;
+}
+
+/* Se centra el main */
+.container {
+  width: 90%;
+  margin: 0 auto
+}
+
+/* Estilos para el menú de hamburguesa (fondo cuadrado-circular, azul, letras blancas y padding) */
+.burger-menu {
+  text-align: center;
+  color: white;
+  background-color: #1259c3;  
+  font-size: 14px; 
+  padding: 8px;
+  margin: 10px auto;
+  width: 1em;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+
+
+/* Clase para los iconos del footer */
+.icons {
+  color: #1259c3;
+  font-size: 2em;
+  padding: 5px
+}
+
+
+/* Clase para la caja que engloba los <article> de los productos (incluye imagen y descripcion) */
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  background-color: white;
+}
+
+/* Clase para la descripcion de los productos */
+.product-content {
+  border-top: solid #ebebeb 1px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+/* Clase para poner texto de color verde */
+.green-text {
+  color: #39b54a
+}
+
+/* Clase para el camion verde */
+.truck-icon {
+  display: block;
+  font-size: 16px;
+  background-color:white;
+  border: solid 1px;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.copyright {
+  margin-top: 10px;
+}
+
+.copy-header {
+  margin-top: 10px;
+  max-width: 234px;
+}
+.wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+.price {
+  width: 30%;
+  padding-right: 20px;
+}
+.discount {
+  width: 70%
+}

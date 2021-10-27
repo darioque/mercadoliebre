@@ -1,0 +1,23 @@
+/* Breakpoint de desktops */
+@media (min-width: 1200px) {
+  .main-header-topbar, .main-header-bottombar {
+    margin: auto;
+    max-width: 1200px;
+  }
+  .wrapper {
+    width: 25%;
+  }
+  .main-header-bottombar li {
+    margin: 0 10px;
+  }
+  .main-header-bottombar li a{
+    font-size: 16px;
+  }
+  .copy-header {
+    max-width: none;
+    font-size: 18px;
+  }
+  .product-content h3 {
+  display: none
+    }
+}

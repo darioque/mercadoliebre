@@ -1,0 +1,54 @@
+/* Breakpoint de tablets */
+@media (min-width: 481px) {
+  .product{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .main-header-topbar a {
+  width: 33%;
+}
+.main-header-topbar div {
+  width: 33%;
+}
+.main-header-topbar h4 {
+  width: 33%;
+}
+  .wrapper {
+      width: 50%;
+  }
+  .product-content h3 {
+    display: block;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .burger-menu {
+    display: none;
+  }
+
+  .copy-header {
+    font-size: 16px;
+    max-width: 168px;
+    text-align: right;
+  }
+
+  /* Estilos para el flex de abajo del header (bottombar) */
+  .main-header-bottombar {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Estilos para las barras de navegaciones del header (bottombar lists) */
+  .main-header-bottombar ul {
+    display: flex;
+  }
+  .main-header-bottombar li {
+    margin: 0 5px;
+  }
+
+  footer {
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    font-size: 16px;
+  }
+}
+
+

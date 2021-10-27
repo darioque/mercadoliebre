@@ -1,0 +1,65 @@
+/* Padding y box-sizing globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuentes generales para el body */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+/* Clase para poner un fondo amarillo */
+.bg-yellow {
+  background-color: #eac926;
+}
+
+/* Clase para poner un fondo blanco */
+.bg-white {
+  background-color: white;
+}
+
+/* Clase para poner un fondo gris */
+.bg-gray {
+  background-color: #ebebeb;
+}
+
+/* Clase para cambiar el ancho a 50% */
+.w-50 {
+  width: 50%;
+}
+
+/* Clase para cambiar el ancho a 100% */
+.w-100 {
+  width: 100%;
+}
+
+/* Clase para poner un padding de 10px*/
+.padding-10 {
+  padding: 10px;
+}
+
+/* Clase para alinear texto al centro*/
+.align-center {
+  text-align: center;
+}
+
+/* Clase para la fuente de titulares */
+.heading-font {
+  font-size: 24px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+/* Clase para la fuente de precios */
+.price-font {
+  font-size: 18px;
+}
+
+/* Clase para la fuente de descripciones*/
+.desc-font {
+  font-size: 16px;
+}
+
