@@ -15,3 +15,12 @@ app.get("/", (req, res) => {
   // responde get to root with index.html
   res.sendFile(path.join(__dirname, "/views/index.html"));
 });
+app.post("/", (req, res) => {
+  // responde get to root with index.html
+  res.sendFile(path.join(__dirname, "/views/index.html"));
+});
+
+app.get("/register", (req, res) => {
+  // responde get to root with index.html
+  res.sendFile(path.join(__dirname, "/views/register.html"));
+});

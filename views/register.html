@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="/" method="POST" class="create-form">
+        <div class="fields">
+            <label>Nombre y apellido:</label>
+            <input class="input-fields" type="text" name="name">
+        </div>
+        <div class="fields">
+            <label>Nombre de usuario:</label>
+            <input class="input-fields" type="text" name="username">
+        </div>
+        <div class="fields">
+            <label>Fecha de nacimiento:</label>
+            <input class="input-fields" type="date" name="fechaNacimiento">
+        </div>
+        <div class="fields">
+            <label>Domicilio:</label>
+            <input class="input-fields" type="text" name="address">
+        </div>
+        <div class="fields">
+            <label>Compra o vende?:</label>
+            <input type="radio" name="userType" value="purchase">Compra
+            <input type="radio" name="userType" value="sale">Venta
+        </div>
+        <div class="fields">
+            <label>Categorias de interés:</label>
+            <input type="checkbox" class="input-fields" name="category" value="electro">Electro
+            <input type="checkbox" class="input-fields" name="category" value="moda">Moda
+            <input type="checkbox" class="input-fields" name="category" value="hogar">Hogar
+            <input type="checkbox" class="input-fields" name="category" value="jugueteria">Jugueteria
+            <input type="checkbox" class="input-fields" name="category" value="lifestyle">Vida sana
+        </div>
+        <div class="fields">
+            <label>Foto:</label>
+            <input type="file" name="picture">
+        </div>
+        <div class="fields">
+            <label>Contraseña:</label>
+            <input type="password" name="password" class="input-fields">
+        </div>
+        <div class="fields">
+            <label>Confirmar contraseña:</label>
+            <input type="password" name="password" class="input-fields">
+        </div>
+        <button class="form-buttons" type="submit">Enviar</button>
+        <button class="form-buttons" type="reset">Borrar</button>
+    </form>
+</body>
+</html>

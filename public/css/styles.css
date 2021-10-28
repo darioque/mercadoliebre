@@ -151,3 +151,31 @@
 .discount {
   width: 70%
 }
+
+.create-form {
+  padding: 20px 15px;
+}
+
+.create-form .fields {
+  margin-bottom: 15px;
+}
+.create-form .fields label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+
+.create-form .input-fields {
+  width: 100%;
+  padding: 8px;
+}
+
+.create-form .form-buttons {
+  background-color: #39b54a;
+  border: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}

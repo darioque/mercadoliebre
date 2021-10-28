@@ -45,7 +45,7 @@
                 <li><a href="">Ayuda</a></li>
             </ul>
             <ul class="right-navbar">
-                <li><a href="">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
                 <li><a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
@@ -178,7 +178,46 @@
         
         </section>
     </main>
-
+    <form action="/crear-producto" method="POST" class="create-form">
+        <div class="fields">
+            <label>Nombre del producto:</label>
+            <input class="input-fields" type="text" name="name">
+        </div>
+        <div class="fields">
+            <label>Precio:</label>
+            <input class="input-fields" type="number" name="price" placeholder="2000">
+        </div>
+        <div class="fields">
+            <label>Categoria:</label>
+            <select class="input-fields" name="category">
+                <option value="vehicle">Vehiculo</option>
+                <option value="electro">Electronica</option>
+                <option value="food">Alimento</option>
+                <option value="indumentaria">Indumentaria</option>
+            </select>
+            
+        </div>
+        <div class="fields">
+            <label>Ciudad:</label>
+            <select class="input-fields" name="city">
+                <option value="ba">Bs As</option>
+                <option value="cba">Cordoba</option>
+                <option value="mdz">Mendoza</option>
+            </select>
+        </div>
+        <div class="fields">
+            <label>Esta en oferta?:</label>
+            <input type="radio" name="hasDiscount" value="true">Sí  
+            <input type="radio" name="hasDiscount" value="false">No
+        </div>
+        <div class="fields">
+            <label>Descripcion:</label>
+            <textarea name="feedback" cols="30" rows="10" class="input-fields"></textarea>
+        </div>
+        <button class="form-buttons" type="reset">Borrar</button>
+        <button class="form-buttons" type="submit">Confirmar</button>
+    </form>
+    
     <footer class="bg-white">
         <section class="align-center">
             <i class="fas fa-credit-card icons "></i>
