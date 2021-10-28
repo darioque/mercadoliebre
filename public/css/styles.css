@@ -17,7 +17,11 @@
   width: 50%;
 }
 
-.search-bar input {
+.search-form {
+  display: flex;
+  flex-grow: 1;
+}
+.search-form .search-input {
   flex-grow: 1;
   background-color: white;
   border-top-left-radius: 5px;
@@ -25,7 +29,7 @@
   border: none;
   max-width: 400px;
 }
-.search-bar button {
+.search-bar .search-form button {
   background-color: white;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
