@@ -4,7 +4,7 @@
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
-    .main-header-topbar a {
+  .main-header-topbar a {
     width: 33%;
   }
   .main-header-topbar div {
@@ -50,9 +50,7 @@
 
   footer {
     padding: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     font-size: 16px;
   }
 }
-
 

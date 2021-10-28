@@ -156,30 +156,49 @@
   width: 70%
 }
 
-.create-form {
+.register-form, .login-form {
   padding: 20px 15px;
 }
 
-.create-form .fields {
-  margin-bottom: 15px;
+.register-form .fields, .login-form .fields {
+  margin-bottom: 30px;
 }
-.create-form .fields label {
+.register-form .fields label, .login-form .fields label {
   margin-bottom: 5px;
   font-style: italic;
+  font-size: 14px;
+  font-weight: 600;
   display: block;
 }
 
-.create-form .input-fields {
+.register-form .input-fields, .login-form .input-fields {
   width: 100%;
   padding: 8px;
+  border-radius: 5px;
+  border: none;
 }
 
-.create-form .form-buttons {
-  background-color: #39b54a;
+.form-buttons {
+  background-color: #1259c3;
+  width: 100%;
+  margin: 5px 0;
   border: none;
   font-size: 20px;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
+}
 
+.radio-buttons {
+  margin: 4px;
+}
+
+.login-form .error-message {
+  display: block;
+  color: red;
+  margin-top: 10px
+}
+
+input::-webkit-input-placeholder {
+  font-size: 14px;
 }
