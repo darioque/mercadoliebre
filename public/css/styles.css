@@ -182,6 +182,17 @@
   border: none;
 }
 
+.register-form .category-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.register-form .label-category {
+  width: 50%;
+}
+
+
 .form-buttons {
   background-color: #1259c3;
   width: 100%;
