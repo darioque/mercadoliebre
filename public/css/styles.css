@@ -163,12 +163,16 @@
 .register-form .fields, .login-form .fields {
   margin-bottom: 30px;
 }
-.register-form .fields label, .login-form .fields label {
+.register-form .fields .title-label{
   margin-bottom: 5px;
   font-style: italic;
   font-size: 14px;
   font-weight: 600;
   display: block;
+}
+
+.register-form .hide, .login-form .hide {
+  display: none;
 }
 
 .register-form .input-fields, .login-form .input-fields {

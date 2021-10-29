@@ -56,40 +56,60 @@
     </header>
     <form action="/" method="POST" class="register-form bg-gray">
         <div class="fields">
-            <input class="input-fields" type="text" name="name" placeholder="Nombre y apellido">
+            <label class="hide" for="name">Nombre y apellido</label>
+            <input class="input-fields" type="text" name="name" placeholder="Nombre y apellido" id="name">
         </div>
         <div class="fields">
-            <input class="input-fields" type="text" name="username" placeholder="Nombre de usuario">
+            <label class="hide" for="username">Nombre de usuario</label>
+            <input class="input-fields" type="text" name="username" placeholder="Nombre de usuario" id="usermane">
         </div>
         <div class="fields">
-            <label>Fecha de nacimiento:</label>
-            <input class="input-fields" type="date" name="fechaNacimiento">
+            <label for="birthDate" class="title-label">Fecha de nacimiento:</label>
+            <input class="input-fields" type="date" name="fechaNacimiento" id="birthDate">
         </div>
         <div class="fields">
-            <input class="input-fields" type="text" name="address" placeholder="Domicilio">
+            <label class="hide" for="address">Domicilio</label>
+            <input class="input-fields" type="text" name="address" placeholder="Domicilio" id="address">
         </div>
         <div class="fields">
-            <label>Perfil del usuario</label>
+            <label for="profile" class="title-label">Perfil del usuario</label>
             <input type="radio" name="userType" value="purchase" class="radio-buttons">Comprador
-            <input type="radio" name="userType" value="sale" class="radio-buttons">Vendedor
+            <input type="radio" name="userType" value="sale" class="radio-buttons" id="profile">Vendedor
+        </div>
+        <div class="fields checkbox-div">
+            <label class="title-label">Categorias de interés:</label>
+            <div>
+                <label>Electro</label>
+                <input type="checkbox" class="input-fields" name="category" value="electro">
+            </div>
+            <div>
+                <label>Moda</label>
+                <input type="checkbox" class="input-fields" name="category" value="moda">
+            </div>
+            <div>
+                <label>Hogar</label>
+                <input type="checkbox" class="input-fields" name="category" value="hogar">
+            </div>
+            <div>
+                <label>Jugueteria</label>
+                <input type="checkbox" class="input-fields" name="category" value="jugueteria">
+            </div>
+            <div>
+                <label>Vida sana</label>
+                <input type="checkbox" class="input-fields" name="category" value="lifestyle">
+            </div>
         </div>
         <div class="fields">
-            <label>Categorias de interés:</label>
-            <input type="checkbox" class="input-fields" name="category" value="electro">Electro
-            <input type="checkbox" class="input-fields" name="category" value="moda">Moda
-            <input type="checkbox" class="input-fields" name="category" value="hogar">Hogar
-            <input type="checkbox" class="input-fields" name="category" value="jugueteria">Jugueteria
-            <input type="checkbox" class="input-fields" name="category" value="lifestyle">Vida sana
+            <label for="picture" class="title-label">Foto:</label>
+            <input type="file" name="picture" accept="image/*" id="picture">
         </div>
         <div class="fields">
-            <label>Foto:</label>
-            <input type="file" name="picture" accept="mimetype">
+            <label class="hide" for="password">Contraseña</label>
+            <input type="password" name="password" class="input-fields" id="password" placeholder="Contraseña">
         </div>
         <div class="fields">
-            <input type="password" name="password" class="input-fields" placeholder="Contraseña">
-        </div>
-        <div class="fields">
-            <input type="password" name="rePassword" class="input-fields" placeholder="Confirmar contraseña">
+            <label class="hide" for="rePassword">Confirmar contraseña</label>
+            <input type="password" name="rePassword" class="input-fields" id="rePassword" placeholder="Confirmar contraseña">
         </div>
         <button class="form-buttons" type="submit">Enviar</button>
         <button class="form-buttons" type="reset">Borrar</button>

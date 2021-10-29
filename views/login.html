@@ -58,11 +58,13 @@
     </header>
     <form action="/" method="POST" class="login-form bg-gray">
         <div class="fields">
-            <input class="input-fields error" type="text" name="username" placeholder="Nombre de usuario">
+            <label class="hide" for="username">Nombre de usuario</label>
+            <input class="input-fields error" type="text" name="username" placeholder="Nombre de usuario" id="username">
             <span class="error-message">El usuario no existe</span>
         </div>
         <div class="fields">
-            <input type="password" name="password" class="input-fields" placeholder="Contraseña">
+            <label class="hide" for="password">Contraseña</label>
+            <input type="password" name="password" class="input-fields" placeholder="Contraseña" id="password">
             <span class="error-message">La contraseña no coincide con el usuario ingresado</span>
         </div>
         <button class="form-buttons" type="submit">Enviar</button>
