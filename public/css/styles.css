@@ -1,3 +1,11 @@
+.main-header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+.banner {
+  margin-top: 166px;
+}
 .main-header-topbar {
     display: flex;
     justify-content: space-around;
@@ -20,6 +28,7 @@
 .search-form {
   display: flex;
   flex-grow: 1;
+  max-height: 33px;
 }
 .search-form .search-input {
   flex-grow: 1;
