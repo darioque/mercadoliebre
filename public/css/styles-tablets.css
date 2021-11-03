@@ -1,11 +1,11 @@
 /* Breakpoint de tablets */
 @media (min-width: 481px) {
-  .product{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
   .main-header {
     position: static;
   }
+  .register-form, .login-form {
+  margin-top: 0px;
+}
   .banner {
     margin-top: 0;
   }
