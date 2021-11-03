@@ -195,6 +195,11 @@
   margin-bottom: 10px;
 }
 
+.register-form .category-container .input-fields {
+  position: relative;
+  right: 40%;
+}
+
 .register-form .label-category {
   width: 50%;
 }
